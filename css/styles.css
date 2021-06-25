@@ -149,7 +149,7 @@ p{
     padding: 1rem 3rem 2rem;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1248px) {
 
     body{
         text-align: center;
