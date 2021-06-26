@@ -1,39 +1,25 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
-h1{
-    font-family: "Montserrat", sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-    padding-top: 1em;
-    padding-bottom: 0.5em;
-}
-
-h2{
+.text-h2{
     font-size: 3rem;
-    font-family: "Montserrat", sans-serif;
     font-weight: bold;
     line-height: 1.5;
 }
 
-h3{
+.text-h3{
     font-weight: bold;
     font-size: 1.5rem;
 }
 
-p{
+.p-text{
     color: #8f8f8f;
 }
 
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-}
-
 .container-fluid{
-    padding: 3% 15%;
+    padding: 7% 15%;
 }
 
 
@@ -60,12 +46,29 @@ p{
 
 /* Title */
 
+#title{
+    text-align: left;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#title .container-fluid{
+    padding: 3% 15%;
+}
+
+.title-h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
 .title-img{
     width: 60%;
     transform: rotate(25deg);
     position: absolute;
 }
-
 
 /* Download Buttons */
 
@@ -76,11 +79,10 @@ p{
 /* Features */
 
 #features{
-    padding-top: 7%;
-    padding-bottom: 7%;
     background-color: #fff;
     position: relative;
     z-index: 1;
+    padding: 7% 0;
 }
 
 .features-icon{
@@ -89,10 +91,6 @@ p{
 
 .features-icon:hover{
     color: #ff4c68;
-}
-
-.features-center{
-    text-align: center;
 }
 
 .features-p{
@@ -105,8 +103,8 @@ p{
 
 #testimonials{
     background-color: #ef8172;
-    text-align: center;
     color: #fff;
+    border: 20px;
 }
 
 .testimonials-img{
@@ -120,12 +118,10 @@ p{
 }
 
 
-
 /* Press */
 
 #press{
     background-color: #ef8172;
-    text-align: center;
 }
 
 .press-img{
@@ -139,7 +135,6 @@ p{
 
 #pricing{
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-col{
@@ -155,8 +150,6 @@ p{
 #cta{
     background-color: #ff4c68;
     color: #fff;
-    text-align: center;
-    padding: 7% 15%;
 }
 
 #cta button{
@@ -167,8 +160,6 @@ p{
 
 #footer{
     background-color: #fff;
-    text-align: center;
-    padding: 7% 15%;
 }
 
 .soc-icons{
@@ -179,13 +170,14 @@ p{
 .footer-p{
     padding: 2% 0 0;
 }
-@media only screen and (max-width: 1248px) {
+@media screen and (max-width: 1248px) {
 
-    body{
+    #title{
         text-align: center;
     }
+
     .title-img{
-        position: relative;
+        position: static;
         transform: rotate(0deg);
     }
 
