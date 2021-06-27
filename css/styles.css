@@ -22,8 +22,18 @@ body{
     padding: 7% 15%;
 }
 
+/* Backgrounds */
 
-/* NAV BAR */
+.colored-bg{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-bg{
+    background-color: #fff;
+}
+
+/* Nav Bar */
 
 .navbar{
     margin-bottom: 4.5rem;
@@ -48,8 +58,6 @@ body{
 
 #title{
     text-align: left;
-    background-color: #ff4c68;
-    color: #fff;
 }
 
 #title .container-fluid{
@@ -79,7 +87,6 @@ body{
 /* Features */
 
 #features{
-    background-color: #fff;
     position: relative;
     z-index: 1;
     padding: 7% 0;
@@ -147,20 +154,11 @@ body{
 
 /* Call to Action */
 
-#cta{
-    background-color: #ff4c68;
-    color: #fff;
-}
-
 #cta button{
     margin: 5% 0.5% 5%;
 }
 
 /* Footer */
-
-#footer{
-    background-color: #fff;
-}
 
 .soc-icons{
     margin: 10px;
